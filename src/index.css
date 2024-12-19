@@ -1,0 +1,138 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  width: 100%;
+  min-height: 100vh;
+}
+
+.nav-bar{
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  box-shadow: 5px 0px 3px #ccc;
+}
+.nav-bar h2{
+  font-family: cursive;
+  font-weight: 200;
+}
+
+.main{
+  padding: 30px;
+  background-color: #faf4f4;
+}
+
+.search-bar{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  max-width: 80%;
+  min-width: 400px;
+  margin: 0 auto;
+}
+.search-bar input[type="text"]{
+  padding: 10px 9px;
+  width: 70%;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #555252;
+}
+.search-bar .add{
+  width: 28%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: black;
+  color: #fff;
+  text-wrap: nowrap;
+}
+
+.ingredient-list{
+  padding: 10px 0px;
+  max-width: 80%;
+  min-width: 400px;
+  margin: 0 auto;
+
+}
+.ingredient-list h1{
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #131212c9;
+}
+.ingredient-list ul{
+  padding: 25px 20px;
+  margin-bottom: 20px;
+  
+}
+.ingredient-list ul > li{
+  margin-bottom: 17px;
+  color: #524d4d;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ingredient-list ul > li::marker{
+  color: #928b8b;
+}
+.ready-recipe{
+  background-color: #e2dfd7d5;
+  padding: 17px 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 400px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.ready-recipe .text h3{
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.ready-recipe .text p{
+  font-size: 12px;
+  color: #666363c7;
+}
+.ready-recipe .generate{
+  background-color: #f19021e0;
+  padding: 8px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+button:hover{
+  cursor: pointer;
+}
+
+.recipe{
+  padding: 20px;
+  max-width: 80%;
+  min-width: 400px;
+  margin: 0 auto;
+  color: "#475467";
+  line-height: 20px;
+  font-size: 1.05rem;
+  font-weight: 400;
+
+}
+.recipe h2{
+  margin-block: 20px;
+}
+.recipe ul li, .recipe ol li{
+  margin-bottom: 8px;
+}
+.recipe ul ,.recipe ol{
+  padding-block: 20px;
+}
+.recipe p:nth-child(4){
+  margin-block-start: 16px;
+}
